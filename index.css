@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    object-fit: contain;
+    width: 80%;
+    height: 60vh;
+}
+.film{
+    /* background-image: url(https://img.freepik.com/free-photo/close-up-film-texture-details_23-2149368372.jpg?size=626&ext=jpg&ga=GA1.2.1061599454.1694171501&semt=ais); */
+    background-size: cover;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+span{
+    color: red;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 3px brown;
+}
+.text{
+    margin-top: 30px;
+    width: 80%;
+}
+.image{
+  width: 80%;
+}
+.ad{
+   color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.4em;
+    padding-top: 30px;
+}
+/* input hisse */
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    border-bottom: 2px solid rgb(174, 11, 11);
+}
+input{
+    padding: 10px;
+    height: 28px;
+    width: 300px;
+}
+
+.icon{
+    width: 770px;
+    height: 100px;
+    color: aliceblue;
+    font-family: 'Bungee Spice', cursive;
+font-family: 'DM Serif Display', serif;
+font-family: 'Handjet', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rubik Iso', cursive;
+display: flex;
+align-items: center;
+font-size: 2em;
+color: brown;
+}
+@media screen and ( max-width:400px) {
+  .icon{
+    font-size: 1.4em;
+  }  
+}
